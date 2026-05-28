@@ -1,0 +1,162 @@
+# Day 3 – Power BI Learning Journey | DAX Practice
+
+Today I learned the basics of DAX (Data Analysis Expressions) in Power BI.  
+Practiced creating Measures, Calculated Columns, and commonly used DAX functions for business analytics.
+
+---
+
+# Most Used DAX Formulas
+
+## 1. Aggregate Functions
+
+### SUM
+```DAX
+Total Sales = SUM(Sales[SalesAmount])
+```
+
+### AVERAGE
+```DAX
+Average Sales = AVERAGE(Sales[SalesAmount])
+```
+
+### COUNT
+```DAX
+Total Orders = COUNT(Sales[OrderID])
+```
+
+### DISTINCTCOUNT
+```DAX
+Unique Customers = DISTINCTCOUNT(Sales[CustomerID])
+```
+
+---
+
+# 2. Logical Functions
+
+### IF
+```DAX
+Profit Status =
+IF(Sales[Profit] > 0, "Profit", "Loss")
+```
+
+### SWITCH
+```DAX
+Grade =
+SWITCH(
+    TRUE(),
+    Sales[Score] >= 90, "A",
+    Sales[Score] >= 70, "B",
+    "C"
+)
+```
+
+---
+
+# 3. Text Functions
+
+### CONCATENATE
+```DAX
+Full Name =
+Employees[FirstName] & " " & Employees[LastName]
+```
+
+### UPPER
+```DAX
+Upper Name = UPPER(Employees[Name])
+```
+
+### LOWER
+```DAX
+Lower Name = LOWER(Employees[Name])
+```
+
+---
+
+# 4. Mathematical Functions
+
+### DIVIDE
+```DAX
+Profit Margin =
+DIVIDE(
+    SUM(Sales[Profit]),
+    SUM(Sales[SalesAmount])
+)
+```
+
+### ROUND
+```DAX
+Rounded Sales = ROUND(Sales[SalesAmount], 2)
+```
+
+---
+
+# 5. Date & Time Functions
+
+### TODAY
+```DAX
+Today's Date = TODAY()
+```
+
+### YEAR
+```DAX
+Year = YEAR(Sales[OrderDate])
+```
+
+### MONTH
+```DAX
+Month = MONTH(Sales[OrderDate])
+```
+
+---
+
+# 6. Filter Functions
+
+### CALCULATE
+```DAX
+Total Sales West =
+CALCULATE(
+    SUM(Sales[SalesAmount]),
+    Sales[Region] = "West"
+)
+```
+
+### FILTER
+```DAX
+High Sales =
+FILTER(
+    Sales,
+    Sales[SalesAmount] > 1000
+)
+```
+
+---
+
+# 7. Relationship Functions
+### RELATED
+```DAX
+Product Category =
+RELATED(Product[Category])
+```
+
+---
+
+# Key Concepts Learned
+
+- Difference between Measure and Calculated Column
+- Row Context vs Filter Context
+- Using DAX for dynamic calculations
+- Creating KPIs and business metrics
+
+---
+
+# Tools Used
+
+- Power BI
+- DAX
+- Excel Dataset
+
+---
+
+# Learning Outcome
+
+Gained hands-on practice with the most commonly used DAX formulas required for dashboards, reports, and interview preparation.
