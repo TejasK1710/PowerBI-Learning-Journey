@@ -1,0 +1,65 @@
+# Day 5 - Business Analytics Thinking
+
+## What is the role of a Data Analyst?
+
+Many people think Data Analysts only:
+- Build dashboards
+- Create reports
+- Write SQL queries
+
+In reality, a Data Analyst helps businesses make better decisions using data.
+
+---
+
+## Business Problem vs Dashboard
+
+Wrong Approach:
+"We need a dashboard."
+
+Correct Approach:
+"What business problem are we trying to solve?"
+
+---
+
+## Questions Every Data Analyst Should Ask
+
+### Sales Analysis
+- Why are sales increasing or decreasing?
+- Which products generate the most revenue?
+- Which region performs best?
+
+### Customer Analysis
+- Who are our most valuable customers?
+- Why are customers leaving?
+- How can retention be improved?
+
+### Marketing Analysis
+- Which campaign generated the highest ROI?
+- What is the customer acquisition cost?
+
+---
+
+## Key Business Metrics
+
+### Revenue
+Total money earned by the business.
+
+### Profit
+Revenue - Expenses.
+
+### Customer Retention Rate
+Percentage of customers who continue using the product.
+
+### Churn Rate
+Percentage of customers who stop using the service.
+
+### Conversion Rate
+Percentage of users who complete a desired action.
+
+---
+
+## Important Learning
+
+A dashboard is not the final goal.
+
+The final goal is to provide insights that help businesses make decisions.
