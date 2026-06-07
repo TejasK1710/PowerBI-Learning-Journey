@@ -1,0 +1,115 @@
+# Day 6 - Core Skills Required for a Data Analyst
+
+## Introduction
+
+A Data Analyst is responsible for transforming raw data into meaningful insights that help businesses make better decisions.
+
+The role is not limited to creating dashboards and reports. A Data Analyst must understand business problems, analyze data, identify trends, and communicate findings effectively.
+
+---
+
+## Essential Skills for a Data Analyst
+
+### 1. SQL
+
+SQL is used to extract and analyze data from databases.
+
+Key Topics:
+
+* SELECT
+* WHERE
+* GROUP BY
+* HAVING
+* JOINS
+* CASE WHEN
+* CTEs
+* Window Functions
+
+---
+
+### 2. Excel
+
+Excel remains one of the most widely used tools in analytics.
+
+Key Topics:
+
+* Pivot Tables
+* VLOOKUP/XLOOKUP
+* INDEX MATCH
+* IF Functions
+* Conditional Formatting
+* Charts
+
+---
+
+### 3. Power BI
+
+Power BI helps convert data into interactive reports and dashboards.
+
+Key Topics:
+
+* Data Import
+* Data Transformation
+* Data Modeling
+* DAX
+* KPIs
+* Dashboard Design
+
+---
+
+### 4. Data Cleaning
+
+Real-world data is often incomplete and inconsistent.
+
+Common Tasks:
+
+* Handling Missing Values
+* Removing Duplicates
+* Fixing Data Types
+* Data Validation
+
+---
+
+### 5. Business Understanding
+
+A Data Analyst should understand the business before creating reports.
+
+Important Questions:
+
+* Why are sales increasing or decreasing?
+* Which products generate the highest revenue?
+* Why are customers leaving?
+* Which region performs best?
+
+---
+
+### 6. Data Visualization
+
+Choosing the right chart is important for communicating insights.
+
+Examples:
+
+* Bar Chart → Category Comparison
+* Line Chart → Trend Analysis
+* Pie Chart → Percentage Distribution
+* Scatter Plot → Relationship Analysis
+
+---
+
+### 7. Communication Skills
+
+The ability to explain insights clearly is critical.
+
+Example:
+
+Instead of:
+"The dashboard shows a decline."
+
+Say:
+"Sales decreased by 12% due to lower performance in the Electronics category."
+
+---
+
+## Key Learning
+
+Tools like SQL, Excel, Python, and Power BI are important, but the real value of a Data Analyst comes from understanding business problems and turning data into actionable insights.
